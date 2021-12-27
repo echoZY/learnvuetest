@@ -12,6 +12,7 @@ export default {
 name: 'TabBarItem',
   data() {
     return {
+      
   }
 },
 props:{
