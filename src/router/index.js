@@ -4,6 +4,8 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 export default new Router({
+  //地址栏不会出现#
+  mode: 'history',
   routes: [
     {
       path:'',

@@ -29,5 +29,6 @@ name: 'Tabbar',
   left: 0;
   right: 0;
   height: 46px;
+  font-size: 14px;
 }
 </style>
