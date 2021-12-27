@@ -26,10 +26,10 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       '@': resolve('src'),
-      'assets': 'src/assets',
-      'common': 'src/common',
-      'network': 'src/network',
-      'views': 'src/views',
+      'assets': resolve('src/assets'),
+      'common': resolve('src/common'),
+      'network': resolve('src/network'),
+      'views': resolve('src/views'),
     }
   },
   module: {
