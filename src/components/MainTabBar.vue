@@ -1,5 +1,8 @@
 <template>
   <div class="main-tabbar">
+    <nav-bar>
+      
+    </nav-bar>
     <tab-bar>
       <tab-bar-item path="/home" defaultColor="deeppink">
         <img slot="item-icon" src="~assets/imgs/tabbar/home.svg" alt=""> 
@@ -27,6 +30,7 @@
 <script>
 import TabBar from '@/components/common/tabbar/TabBar';
 import TabBarItem from '@/components/common/tabbar/TabBarItem';
+import NavBar from '@/components/common/navbar/NavBar'
 export default {
 name: 'MainTabBar',
   data() {
@@ -37,7 +41,8 @@ name: 'MainTabBar',
 },
   components: {
     TabBar,
-    TabBarItem
+    TabBarItem,
+    NavBar
   },
   created() {},
   mounted() {}
