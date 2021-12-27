@@ -44,7 +44,7 @@ methods: {
      return this.$route.path.indexOf(this.path) !== -1;
     },
     activeStyle(){
-      console.log('222========',this.isActive);
+      // console.log('222========',this.isActive);
         return this.isActive?{color: this.defaultColor}:{}
     }
   }

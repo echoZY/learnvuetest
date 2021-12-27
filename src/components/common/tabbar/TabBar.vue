@@ -30,5 +30,6 @@ name: 'Tabbar',
   right: 0;
   height: 46px;
   font-size: 14px;
+  background-color: #f6f6f6;
 }
 </style>
