@@ -1,9 +1,12 @@
 <template>
-  <div class="">
+  <div class="home">
+    <nav-bar>
+    </nav-bar>
     首页
   </div>
 </template>
 <script>
+import NavBar from '@/components/common/navbar/NavBar'
 export default {
 name: 'Home',
   data() {
@@ -12,7 +15,9 @@ name: 'Home',
 },
   methods: {
 },
-  components: {},
+  components: {
+    NavBar
+  },
   created() {},
   mounted() {
   }
